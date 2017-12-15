@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+  -webkit-text-size-adjust: none;
+}
+/* 设置HTML5元素为块 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+/* 设置图片视频等自适应调整 */
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  width: 100%;
+  /* ie8 */
+  display: block;
+}
+.video embed,
+.video object,
+.video iframe {
+  width: 100%;
+  height: auto;
+}
+/* 公共库 */
+body,
+div,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+fieldset,
+legend,
+input,
+button,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  width: 100%;
+  margin: 0 auto;
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #555756;
+}
+a:hover {
+  color: #141414;
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+a > img {
+  vertical-align: bottom;
+}
+/* 页面主代码 */
+body {
+  font-family: 'Heiti SC', 'Microsoft YaHei', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333333;
+  background: #fff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  *overflow-y: auto !important;
+  max-width: 640px;
+  margin: 0 auto;
+}
+/*设置容器最大宽度为640*/
+@media only screen and (min-width: 1280px) {
+  body,
+  html {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 640px) and (max-width: 1279px) {
+  body,
+  html {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+  body,
+  html {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 570px) and (max-width: 599px) {
+  body,
+  html {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 569px) {
+  body,
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 510px) and (max-width: 539px) {
+  body,
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 509px) {
+  body,
+  html {
+    font-size: 17.5px;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 479px) {
+  body,
+  html {
+    font-size: 16.6px;
+  }
+}
+@media only screen and (min-width: 420px) and (max-width: 449px) {
+  body,
+  html {
+    font-size: 15.5px;
+  }
+}
+@media only screen and (min-width: 391px) and (max-width: 419px) {
+  body,
+  html {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 390px) {
+  body,
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen  and (max-width: 374px) {
+  body,
+  html {
+    font-size: 12px;
+  }
+}
